@@ -1,0 +1,2 @@
+$QS = http_build_query(array_merge($_GET, ["action" => "mode_saved"]));
+header('Location: ./?' . $QS);
